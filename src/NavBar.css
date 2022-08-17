@@ -1,0 +1,32 @@
+/*
+z-index robi prioritu overlappovania
+*/
+body{
+}
+
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #282c34;
+}
+.more {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+}
+.logoImg {
+    height: 50px;
+}
+.menuButton {
+    border-style: none;
+    color: transparent;
+    background-color: transparent;
+}
+.menuButton:hover {
+    background-color: #bbbbbb;
+}
